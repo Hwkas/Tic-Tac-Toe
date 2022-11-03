@@ -7,14 +7,6 @@ class TicTacToe():
         self.game_complete = False
         print(pd.DataFrame(self.array))
 
-
-
-    # def users_turn(self, marker):
-    #     block_loc = input("Choose the block to place your Marker, for top left block block enter '0,0':     ").split(",")
-    #     turn(loc=block_loc, marker=marker)
-    # def single_player():
-    #     turn()
-
     def turn(self, loc, marker):
         loc[0] = int(loc[0])
         loc[1] = int(loc[1])
